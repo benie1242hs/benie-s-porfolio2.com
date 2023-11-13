@@ -1,0 +1,218 @@
+/* css */
+a{
+  text-decoration: none;
+  color:white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* hypertext section */
+h1,
+h2,
+h3,
+h4,
+h5
+{
+font-family: fantasy;
+}
+
+/* main section */
+#main {
+  margin-left: 300px;
+}
+
+
+/* background image section  */
+body {
+background-color:rgb(12, 11, 12);
+background-repeat: no-repeat, repeat;
+height: auto;
+background-position: center; 
+background-size: cover;
+}
+
+/* home section */
+#ben {
+  background: url("../img/be.jpg") top center;
+  background-repeat: no-repeat, repeat;
+  position: static;
+  background-size:cover;
+  background-color:black;
+  width: 100%;
+  height: 100vh;
+  margin-left: 295px;
+  z-index: 9999;
+  display: flex;
+  background-size:cover;
+
+}
+/* info section  */
+.info{
+font-weight: bolder;
+font-size: larger;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color:black;
+margin-left: 295px;
+margin-top:10px;
+padding-top: 20px;
+background-color:white;
+padding-left: 20px;
+opacity: 0.5;
+width: 100%;
+height: 100vh;
+text-align: left;
+justify-content: center;
+position: static;
+background-size:cover;
+}
+
+.about h4{
+font-size: x-large;
+line-height: 30px;
+margin-bottom: 60px;
+margin-top: 50px;
+}
+
+.info p{
+  margin-top: 10vh;
+  display:flex;
+  line-height: 20px;
+  font-weight: bold;
+  font-size:large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.info p1{
+  margin-top: 10vh;
+  display:flex;
+  line-height: 20px;
+  font-size:large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.info p2{
+  margin-top: 10vh;
+  display:flex;
+  line-height: 20px;
+  font-size:large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+
+/* resume section */
+.resume{
+  font-weight: bolder;
+  font-size: larger;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:black;
+  padding-left: 20px;
+  margin-left: 295px;
+  margin-top:10px;
+  padding-top: 20px;
+  background-color:white;
+  opacity: 0.5;
+  width: 100%;
+  height: 100vh;
+  text-align: left;
+  position: static;
+  background-size:cover;
+  }
+
+  .resume h4{
+    font-size: x-large;
+    line-height: 30px;
+    margin-bottom: 60px;
+    margin-top: 50px;
+    }
+  .resume p3{
+    margin-top: 10vh;
+    display: flex;
+    line-height: 20px;
+    font-size:large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+  .resume p4{
+    margin-top: 10vh;
+    display: flex;
+    line-height: 20px;
+    font-size:large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+  .resume p5{
+    margin-top: 10vh;
+    display: flex;
+    line-height: 20px;
+    font-size:large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+  }
+  /* contact section */
+.contact{
+  font-weight: bolder;
+  font-size: larger;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:black;
+  text-align: left;
+  padding-left: 20px;
+  margin-left: 295px;
+  margin-top:10px;
+  background-color:white;
+  opacity: 0.5;
+  width: 100%;
+  height: 100vh;
+  text-align: left;
+  display: flex;
+  position: static;
+  background-size:cover;
+  }
+
+  .contact-name h4{
+    font-size: x-large;
+    line-height: 30px;
+    margin-bottom: 60px;
+
+  }
+
+  .contact p6{
+    font-size: x-large;
+    display:flex;
+    line-height: 20px;
+    margin-top: 10vh;
+    font-size:large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+    
+/* footer section */
+
+
+#footer {
+  padding: 15px;
+  color: #f4f6fd;
+  font-size: 14px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 9999;
+  background: #4b0450;
+  margin-left: 295px;
+
+}
+
+#footer .copyright {
+  text-align:center;
+  padding-right: 30%;
+
+}
+
+#footer .credits {
+  padding-top: 5px;
+  padding-right: 30%;
+  text-align: center;
+  font-size: 13px;
+  color: #eaebf0;
+
+}
